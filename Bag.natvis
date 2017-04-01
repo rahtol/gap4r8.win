@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  
+  <Type Name="bag2">
+    <DisplayString Condition="*((*b)-3)==10">{{Bag: T_FUNCTION, size={*((*b)-2)}}}</DisplayString>
+    <DisplayString >{{Bag: type={*((*b)-3)}, size={*((*b)-2)}}}</DisplayString>
+    <Expand>
+      <Item Name="[Type]">*((*b)-3)</Item>
+      <Item Name="[Size]">*((*b)-2)</Item>
+      <Item Name="[NEXT]">(bag2 *)((*b)-1)</Item>
+      <Item Condition="*((*b)-3)==10" Name="[Body]">(bag2 *)((*b)+13)</Item>
+    </Expand>
+  </Type>
+  
+</AutoVisualizer>
