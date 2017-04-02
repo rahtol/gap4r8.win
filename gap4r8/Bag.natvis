@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  
+  <Type Name="bag2">
+    
+    <DisplayString Condition="(((int)b)%4==0)&amp;&amp;(*((*b)-3)==0x0a)">{{Bag: T_FUNCTION, size={*((*b)-2)}}}</DisplayString>
+    <DisplayString Condition="(((int)b)%4==0)&amp;&amp;(*((*b)-3)==0x4d)">{{Bag: T_STRING, size={*((*b)-2)}, len={*((*b))}, {(char*)((*b)+1)}}}</DisplayString>
+    <DisplayString Condition="(((int)b)%4==0)&amp;&amp;(*((*b)-3)==0x1a)">{{Bag: T_PLIST, size={*((*b)-2)}, len={*((*b))}}}</DisplayString>
+    <DisplayString Condition="(((int)b)%4==0)&amp;&amp;(*((*b)-3)==0x0d)">{{Bag: T_LVARS, size={*((*b)-2)}}}</DisplayString>
+    <DisplayString Condition="(((int)b)%4==0)">{{Bag: type={*((*b)-3)}, size={*((*b)-2)}}}"</DisplayString>
+    <DisplayString Condition="(((int)b)%4==1)">{{Bag: INTEGER={((int)b)&gt;&gt;2}}}"</DisplayString>
+
+    <Expand>
+      
+      <Item Condition="(((int)b)%4==0)" Name="[Type]">*((*b)-3)</Item>
+      <Item Condition="(((int)b)%4==0)" Name="[Size]">*((*b)-2)</Item>
+      <Item Condition="(((int)b)%4==0)" Name="[NEXT]">(bag2 *)((*b)-1)</Item>
+      
+      <Item Condition="(((int)b)%4==0)&amp;&amp;*((*b)-3)==0x0a" Name="[Narg]">(int*)((*b)+9)</Item>
+      <Item Condition="(((int)b)%4==0)&amp;&amp;*((*b)-3)==0x0a" Name="[Nloc]">(int*)((*b)+12)</Item>
+      <Item Condition="(((int)b)%4==0)&amp;&amp;*((*b)-3)==0x0a" Name="[Body]">(bag2 *)((*b)+13)</Item>
+
+      <ArrayItems Condition="(((int)b)%4==0)&amp;&amp;*((*b)-3)==0x1a">
+        <Size>**b</Size>
+        <ValuePointer>(bag2 *)((*b)+1)</ValuePointer>
+      </ArrayItems>
+
+      <ArrayItems Condition="(((int)b)%4==0)&amp;&amp;*((*b)-3)==0x0d">
+        <Size>((int)(*((*b)-2)))/4</Size>
+        <ValuePointer>(bag2 *)((*b)+0)</ValuePointer>
+      </ArrayItems>
+
+    </Expand>
+    
+  </Type>
+  
+</AutoVisualizer>

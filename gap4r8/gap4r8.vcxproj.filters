@@ -18,205 +18,10 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\gap4r8\src\ariths.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\blister.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\bool.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\c_filt1.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\c_meths1.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\c_oper1.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\c_random.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\c_type1.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\calls.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\code.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\compiler.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\compstat.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\costab.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\cyclotom.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\dt.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\dteval.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\exprs.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\finfield.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\funcs.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\gap.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\gapw95.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\gasman.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\gmpints.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\gvars.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\integer.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\intfuncs.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\intrprtr.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\listfunc.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\listoper.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\lists.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\macfloat.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\objccoll.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\objcftl.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\objects.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\objfgelm.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\objpcgel.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\objscoll.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\opers.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\permutat.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\plist.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\pperm.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\precord.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\profile.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\range.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\rational.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\read.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\records.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\saveload.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\scanner.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\sctable.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\set.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\stats.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\streams.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\string.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\sysfiles.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\system.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\tietze.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\trans.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\vars.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\vec8bit.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\vecffe.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\vecgf2.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\vector.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\weakptr.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
     <ClCompile Include="bec.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="bec2.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gap4r8\src\iostream.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="bec_getreent.c">
@@ -237,6 +42,201 @@
     <ClCompile Include="bec_main.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include=".\src\ariths.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\blister.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\bool.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\calls.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\code.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\compiler.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\compstat.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\costab.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\cyclotom.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\c_filt1.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\c_meths1.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\c_oper1.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\c_random.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\c_type1.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\dt.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\dteval.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\exprs.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\finfield.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\funcs.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\gap.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\gapw95.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\gasman.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\gmpints.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\gvars.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\integer.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\intfuncs.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\intrprtr.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\iostream.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\listfunc.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\listoper.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\lists.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\macfloat.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\objccoll.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\objcftl.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\objects.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\objfgelm.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\objpcgel.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\objscoll.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\opers.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\permutat.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\plist.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\pperm.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\precord.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\profile.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\range.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\rational.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\read.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\records.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\saveload.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\scanner.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\sctable.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\set.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\stats.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\streams.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\string.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\sysfiles.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\system.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\tietze.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\trans.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\vars.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\vec8bit.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\vecffe.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\vecgf2.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\vector.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include=".\src\weakptr.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\cstddef" />
@@ -248,224 +248,224 @@
     <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xtr1common" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\gap4r8\bec.h">
+    <ClInclude Include=".\bec.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\config.h">
+    <ClInclude Include=".\bec_timer.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\gap_version.h">
+    <ClInclude Include=".\config.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\gmp.h">
+    <ClInclude Include=".\gap_version.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\aobjects.h">
+    <ClInclude Include=".\gmp.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\ariths.h">
+    <ClInclude Include=".\src\aobjects.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\atomic.h">
+    <ClInclude Include=".\src\ariths.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\blister.h">
+    <ClInclude Include=".\src\atomic.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\bool.h">
+    <ClInclude Include=".\src\blister.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\calls.h">
+    <ClInclude Include=".\src\bool.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\code.h">
+    <ClInclude Include=".\src\calls.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\compiled.h">
+    <ClInclude Include=".\src\code.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\compiler.h">
+    <ClInclude Include=".\src\compiled.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\compstat.h">
+    <ClInclude Include=".\src\compiler.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\costab.h">
+    <ClInclude Include=".\src\compstat.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\cyclotom.h">
+    <ClInclude Include=".\src\costab.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\dt.h">
+    <ClInclude Include=".\src\cyclotom.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\dteval.h">
+    <ClInclude Include=".\src\dt.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\exprs.h">
+    <ClInclude Include=".\src\dteval.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\ffdata.h">
+    <ClInclude Include=".\src\exprs.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\finfield.h">
+    <ClInclude Include=".\src\ffdata.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\funcs.h">
+    <ClInclude Include=".\src\finfield.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\gap.h">
+    <ClInclude Include=".\src\funcs.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\gasman.h">
+    <ClInclude Include=".\src\gap.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\gmpints.h">
+    <ClInclude Include=".\src\gasman.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\gvars.h">
+    <ClInclude Include=".\src\gmpints.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\integer.h">
+    <ClInclude Include=".\src\gvars.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\intfuncs.h">
+    <ClInclude Include=".\src\integer.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\intrprtr.h">
+    <ClInclude Include=".\src\intfuncs.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\iostream.h">
+    <ClInclude Include=".\src\intrprtr.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\listfunc.h">
+    <ClInclude Include=".\src\iostream.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\listoper.h">
+    <ClInclude Include=".\src\listfunc.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\lists.h">
+    <ClInclude Include=".\src\listoper.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\macfloat.h">
+    <ClInclude Include=".\src\lists.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\objccoll.h">
+    <ClInclude Include=".\src\macfloat.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\objccoll-impl.h">
+    <ClInclude Include=".\src\objccoll-impl.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\objcftl.h">
+    <ClInclude Include=".\src\objccoll.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\objects.h">
+    <ClInclude Include=".\src\objcftl.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\objfgelm.h">
+    <ClInclude Include=".\src\objects.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\objpcgel.h">
+    <ClInclude Include=".\src\objfgelm.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\objscoll.h">
+    <ClInclude Include=".\src\objpcgel.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\objscoll-impl.h">
+    <ClInclude Include=".\src\objscoll-impl.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\opers.h">
+    <ClInclude Include=".\src\objscoll.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\permutat.h">
+    <ClInclude Include=".\src\opers.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\plist.h">
+    <ClInclude Include=".\src\permutat.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\pperm.h">
+    <ClInclude Include=".\src\plist.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\precord.h">
+    <ClInclude Include=".\src\pperm.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\profile.h">
+    <ClInclude Include=".\src\precord.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\range.h">
+    <ClInclude Include=".\src\profile.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\rational.h">
+    <ClInclude Include=".\src\range.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\read.h">
+    <ClInclude Include=".\src\rational.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\records.h">
+    <ClInclude Include=".\src\read.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\saveload.h">
+    <ClInclude Include=".\src\records.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\scanner.h">
+    <ClInclude Include=".\src\saveload.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\sctable.h">
+    <ClInclude Include=".\src\scanner.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\set.h">
+    <ClInclude Include=".\src\sctable.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\stats.h">
+    <ClInclude Include=".\src\set.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\streams.h">
+    <ClInclude Include=".\src\stats.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\string.h">
+    <ClInclude Include=".\src\streams.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\sysfiles.h">
+    <ClInclude Include=".\src\string.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\system.h">
+    <ClInclude Include=".\src\sysfiles.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\thread.h">
+    <ClInclude Include=".\src\system.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\tietze.h">
+    <ClInclude Include=".\src\thread.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\tls.h">
+    <ClInclude Include=".\src\tietze.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\trans.h">
+    <ClInclude Include=".\src\tls.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\vars.h">
+    <ClInclude Include=".\src\trans.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\vec8bit.h">
+    <ClInclude Include=".\src\vars.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\vecffe.h">
+    <ClInclude Include=".\src\vec8bit.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\vecgf2.h">
+    <ClInclude Include=".\src\vecffe.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\vector.h">
+    <ClInclude Include=".\src\vecgf2.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\src\weakptr.h">
+    <ClInclude Include=".\src\vector.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gap4r8\bec_timer.h">
+    <ClInclude Include=".\src\weakptr.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Natvis Include="..\Bag.natvis" />
+    <Natvis Include=".\Bag.natvis" />
   </ItemGroup>
 </Project>

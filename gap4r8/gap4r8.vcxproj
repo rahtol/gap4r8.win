@@ -78,7 +78,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\work\gapwin\gap4r8;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4018</DisableSpecificWarnings>
       <CompileAsManaged>false</CompileAsManaged>
       <OpenMPSupport>false</OpenMPSupport>
@@ -272,11 +272,11 @@
     <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xtr1common" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\gap4r8\bec.h" />
-    <ClInclude Include="..\..\gap4r8\bec_timer.h" />
-    <ClInclude Include="..\..\gap4r8\config.h" />
-    <ClInclude Include="..\..\gap4r8\gap_version.h" />
-    <ClInclude Include="..\..\gap4r8\gmp.h" />
+    <ClInclude Include=".\bec.h" />
+    <ClInclude Include=".\bec_timer.h" />
+    <ClInclude Include=".\config.h" />
+    <ClInclude Include=".\gap_version.h" />
+    <ClInclude Include=".\gmp.h" />
     <ClInclude Include=".\src\aobjects.h" />
     <ClInclude Include=".\src\ariths.h" />
     <ClInclude Include=".\src\atomic.h" />
@@ -346,7 +346,7 @@
     <ClInclude Include=".\src\weakptr.h" />
   </ItemGroup>
   <ItemGroup>
-    <Natvis Include="..\Bag.natvis">
+    <Natvis Include=".\Bag.natvis">
       <SubType>Designer</SubType>
     </Natvis>
   </ItemGroup>
