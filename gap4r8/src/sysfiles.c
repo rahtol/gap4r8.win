@@ -431,8 +431,20 @@ Int4 SyGAPCRC( const Char * name )
     }
 
     /* and close it again                                                  */
+#ifndef _BEC_
     SyFclose( fid );
-//    fclose(f);
+    fclose(f);
+#else
+//    SyFclose( fid );
+	fclose(f);
+	/* mark the buffer as unused                                           */
+	HashLock(&syBuf);
+	if (syBuf[fid].bufno >= 0)
+		syBuffers[syBuf[fid].bufno].inuse = 0;
+	syBuf[fid].fp = -1;
+	HashUnlock(&syBuf);
+#endif
+
     /* Emulate a signed shift: */
     if (crc & 0x80000000L)
         return (Int4) ((crc >> 4) | 0xF0000000L);
