@@ -48,8 +48,13 @@ extern  UInt            (* ExecStatFuncs[256]) ( Stat stat );
 
 #include <stdio.h>
 
+#ifdef _BEC_
+#include "bec_debug.h"
+#endif
+
 static inline UInt EXEC_STAT(Stat stat)
-{ 
+{
+	chkdbg(stat);
   return ( (*ExecStatFuncs[ TNUM_STAT(stat) ]) ( stat ) ); 
 }
 //#define EXEC_STAT(stat) ( (*ExecStatFuncs[ TNUM_STAT(stat) ]) ( stat ) )

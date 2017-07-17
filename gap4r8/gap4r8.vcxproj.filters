@@ -237,6 +237,9 @@
     <ClCompile Include=".\src\weakptr.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="bec_debug.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\cstddef" />
@@ -462,6 +465,9 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include=".\src\weakptr.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="bec_debug.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

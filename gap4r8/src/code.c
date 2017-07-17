@@ -111,10 +111,33 @@ static inline void PopLoopNesting( void ) {
   TLS(LoopNesting) = TLS(LoopStack)[--TLS(LoopStackCount)];
 }
 
+#ifdef _BEC_
+UInt FilenameCacheLookup(Char *cfname)
+{
+	UInt len = LEN_PLIST(FilenameCache);
+	for (UInt i = len; i > 0; i--)
+	{
+		Obj fn = ELM_PLIST(FilenameCache, i);
+		Char *cfn = CSTR_STRING(fn);
+		if (strcmp(cfn, cfname) == 0) {
+			return i;
+		}
+	}
+	return 0;
+};
+#endif
+
 static inline void setup_gapname(TypInputFile* i)
 {
   UInt len;
   if(!i->gapname) {
+#ifdef _BEC_
+	  if ((i->gapnameid = FilenameCacheLookup(i->name)) != 0)
+	  {
+		  i->gapname = ELM_PLIST(FilenameCache, i->gapnameid);
+		  return;
+	  };
+#endif
     C_NEW_STRING_DYN(i->gapname, i->name);
     len = LEN_PLIST( FilenameCache );
     GROW_PLIST(      FilenameCache, len+1 );

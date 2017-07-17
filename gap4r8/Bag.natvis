@@ -4,10 +4,11 @@
   <Type Name="bag2">
     
     <DisplayString Condition="(((int)b)%4==0)&amp;&amp;(*((*b)-3)==0x0a)">{{Bag: T_FUNCTION, size={*((*b)-2)}}}</DisplayString>
+    <DisplayString Condition="(((int)b)%4==0)&amp;&amp;(*((*b)-3)==0x4c)">{{Bag: T_STRING, size={*((*b)-2)}, len={*((*b))}, {(char*)((*b)+1)}}}</DisplayString>
     <DisplayString Condition="(((int)b)%4==0)&amp;&amp;(*((*b)-3)==0x4d)">{{Bag: T_STRING, size={*((*b)-2)}, len={*((*b))}, {(char*)((*b)+1)}}}</DisplayString>
     <DisplayString Condition="(((int)b)%4==0)&amp;&amp;(*((*b)-3)==0x1a)">{{Bag: T_PLIST, size={*((*b)-2)}, len={*((*b))}}}</DisplayString>
     <DisplayString Condition="(((int)b)%4==0)&amp;&amp;(*((*b)-3)==0x0d)">{{Bag: T_LVARS, size={*((*b)-2)}}}</DisplayString>
-    <DisplayString Condition="(((int)b)%4==0)">{{Bag: type={*((*b)-3)}, size={*((*b)-2)}}}"</DisplayString>
+    <DisplayString Condition="(((int)b)%4==0)">{{Bag: type={*((*b)-3)}, size={*((*b)-2)}}}</DisplayString>
     <DisplayString Condition="(((int)b)%4==1)">{{Bag: INTEGER={((int)b)&gt;&gt;2}}}"</DisplayString>
 
     <Expand>

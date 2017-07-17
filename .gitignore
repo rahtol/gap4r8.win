@@ -240,3 +240,8 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/gap4r8/gap4r8.100.vcxproj
+/gap4r8/gap4r8.101.vcxproj
+/gap4r8/gap4r8.map
+/gap4r8/gap4r8.100.vcxproj
+/Bag.100.natvis

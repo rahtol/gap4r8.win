@@ -112,6 +112,10 @@
 #include        "intfuncs.h"
 #include        "iostream.h"
 
+#ifdef _BEC_
+#include "bec_debug.h"
+#endif
+
 /****************************************************************************
 **
 
@@ -3242,6 +3246,9 @@ static InitInfoFunc InitFuncsBuiltinModules[] = {
     InitInfoSysFiles,
     InitInfoIOStream,
 
+#ifdef _BEC_
+	InitInfoDebug,
+#endif
     /* main module                                                         */
     InitInfoGap,
 
